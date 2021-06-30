@@ -1,0 +1,47 @@
+body {
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+.container {
+  background-color: white;
+  border-radius: 10px;
+  width: 600px;
+  overflow: hidden;
+}
+
+.container-header {
+  padding: 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  display: block;
+  width: 100%;
+  padding: 20px;
+  font-size: 24px;
+  border: none;
+}
+
+button:hover {
+  background-color: teal;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 400px;
+  }
+}
